@@ -6,7 +6,7 @@ variable "parameters" {
     { name = "dev.frontend.BACKEND_ENDPOINT", type = "SecureString", value = "http://backend-dev.sbadiger93.online/"},
     { name = "dev.rds.username", type = "String", value = "admin1"},
     { name = "dev.rds.password", type = "SecureString", value = "ExpenseApp1"},
-    { name = "sonar.token", type = "SecureString", value = "2e0686fd83f78b33e8f035245751aa08e0a21c49"}
+    { name = "sonar.token", type = "SecureString", value = "2e0686fd83f78b33e8f035245751aa08e0a21c49"},
 
     ]   
 }
