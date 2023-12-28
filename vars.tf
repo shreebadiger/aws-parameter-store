@@ -7,6 +7,7 @@ variable "parameters" {
     { name = "dev.rds.username", type = "String", value = "admin1"},
     { name = "dev.rds.password", type = "SecureString", value = "ExpenseApp1"},
     { name = "sonar.token", type = "SecureString", value = "2e0686fd83f78b33e8f035245751aa08e0a21c49"},
+    { name = "artifactory.password", type = "SecureString", value = "Admin123"},
 
     ]   
 }
