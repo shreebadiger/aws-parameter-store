@@ -9,7 +9,7 @@ variable "parameters" {
     { name = "sonar.token", type = "SecureString", value = "2e0686fd83f78b33e8f035245751aa08e0a21c49"},
     { name = "artifactory.password", type = "SecureString", value = "Admin123"},
     { name = "ssh.username", type = "String", value = "root"},
-    { name = "ssh.username", type = "SecureString", value = "DevOps321"},
+    { name = "ssh.password", type = "SecureString", value = "DevOps321"},
 
     ]   
 }
