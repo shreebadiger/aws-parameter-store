@@ -11,7 +11,7 @@ variable "parameters" {
     "artifactory.username" = { name = "artifactory.username", type = "String", value = "admin"},
     "ssh.username" = { name = "ssh.username", type = "String", value = "root"},
     "ssh.password" = { name = "ssh.password", type = "SecureString", value = "DevOps321"},
-    " dev.backend.app_version" = { name = " dev.backend.app_version", type = "SecureString", value = "1.0.0"},
-
+    "dev.backend.app_version" = { name = " dev.backend.app_version", type = "SecureString", value = "1.0.0"},
+    "dev.frontend.app_version" = { name = " dev.frontend.app_version", type = "SecureString", value = "1.0.0"},
     }
 }
