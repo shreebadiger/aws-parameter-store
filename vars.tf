@@ -8,8 +8,10 @@ variable "parameters" {
     { name = "dev.rds.password", type = "SecureString", value = "ExpenseApp1"},
     { name = "sonar.token", type = "SecureString", value = "2e0686fd83f78b33e8f035245751aa08e0a21c49"},
     { name = "artifactory.password", type = "SecureString", value = "Admin123"},
+    { name = "artifactory.username", type = "String", value = "admin"},
     { name = "ssh.username", type = "String", value = "root"},
     { name = "ssh.password", type = "SecureString", value = "DevOps321"},
-
-    ]   
+    { name = " dev.backend.app_version", type = "SecureString", value = "1.0.0"},
+   
+   ]   
 }
