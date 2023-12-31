@@ -12,7 +12,7 @@ variable "parameters" {
 #"prod.frontend.app_version" = { name = "prod.frontend.app_version", type = "SecureString", value = "1.0.0"},
 
 
-"dev.rds.endpoint" = { name = "dev.rds.endpoint", type = "SecureString", value = "terraform-20231231050824679300000002.cza2eiiicaa6.us-east-1.rds.amazonaws.com"},
+"dev.rds.endpoint" = { name = "dev.rds.endpoint", type = "SecureString", value = "terraform-20231231050824679300000002.cza2eiiicaa6.us-east-1.rds.amazonaws.com" },
 "dev.rds.username" = { name = "dev.rds.username", type = "String", value = "admin1"},
 
 #"prod.rds.endpoint" = { name = "prod.rds.endpoint", type = "SecureString", value = "terraform-20231230182319193200000002.cza2eiiicaa6.us-east-1.rds.amazonaws.com"},
