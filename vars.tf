@@ -1,7 +1,7 @@
 variable "parameters" {
     default = {
         
-"dev.backend.DB_HOST" = { name = "dev.backend.DB_HOST", type = "String", value = "terraform-20231231050824679300000002.cza2eiiicaa6.us-east-1.rds.amazonaws.com"},
+"dev.backend.DB_HOST" = { name = "dev.backend.DB_HOST", type = "String", value = "terraform-20240102161541596100000002.cza2eiiicaa6.us-east-1.rds.amazonaws.com"},
 "dev.frontend.BACKEND_ENDPOINT" = { name = "dev.frontend.BACKEND_ENDPOINT", type = "SecureString", value = "http://backend-dev.sbadiger93.online/"},
 "dev.backend.app_version" = { name = " dev.backend.app_version", type = "SecureString", value = "1.0.0"},
 "dev.frontend.app_version" = { name = " dev.frontend.app_version", type = "SecureString", value = "1.0.0"},
@@ -12,7 +12,7 @@ variable "parameters" {
 "prod.frontend.app_version" = { name = "prod.frontend.app_version", type = "SecureString", value = "1.0.0"},
 
 
-"dev.rds.endpoint" = { name = "dev.rds.endpoint", type = "SecureString", value = "terraform-20231231050824679300000002.cza2eiiicaa6.us-east-1.rds.amazonaws.com" },
+"dev.rds.endpoint" = { name = "dev.rds.endpoint", type = "SecureString", value = "terraform-20240102161541596100000002.cza2eiiicaa6.us-east-1.rds.amazonaws.com" },
 "dev.rds.username" = { name = "dev.rds.username", type = "String", value = "admin1"},
 
 "prod.rds.endpoint" = { name = "prod.rds.endpoint", type = "SecureString", value = "terraform-20231230182319193200000002.cza2eiiicaa6.us-east-1.rds.amazonaws.com"},
