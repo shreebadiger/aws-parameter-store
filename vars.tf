@@ -11,6 +11,8 @@ variable "parameters" {
 "prod.backend.app_version" = { name = "prod.backend.app_version", type = "SecureString", value = "1.0.0"},
 "prod.frontend.app_version" = { name = "prod.frontend.app_version", type = "SecureString", value = "1.0.0"},
 
+"dev.roboshop.rds.username" = { name = "dev.roboshop.rds.username", type = "String", value = "admin1"},
+"dev.roboshop.rds.password" = { name = "dev.roboshop.rds.password", type = "SecureString", value = "RoboShop12345"},
 
 "dev.rds.endpoint" = { name = "dev.rds.endpoint", type = "SecureString", value = "terraform-20240106162607772700000003.cza2eiiicaa6.us-east-1.rds.amazonaws.com" },
 "dev.rds.username" = { name = "dev.rds.username", type = "String", value = "admin1"},
