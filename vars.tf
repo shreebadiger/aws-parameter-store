@@ -14,6 +14,11 @@ variable "parameters" {
 "dev.roboshop.rds.username" = { name = "dev.roboshop.rds.username", type = "String", value = "admin1"},
 "dev.roboshop.rds.password" = { name = "dev.roboshop.rds.password", type = "SecureString", value = "RoboShop12345"},
 
+"dev.roboshop.docdb.username" = { name = "dev.roboshop.docdb.username", type = "String", value = "admin1"},
+"dev.roboshop.docdb.password" = { name = "dev.roboshop.docdb.password", type = "SecureString", value = "RoboShop12345"},
+
+
+
 "dev.rds.endpoint" = { name = "dev.rds.endpoint", type = "SecureString", value = "terraform-20240106162607772700000003.cza2eiiicaa6.us-east-1.rds.amazonaws.com" },
 "dev.rds.username" = { name = "dev.rds.username", type = "String", value = "admin1"},
 
