@@ -23,7 +23,7 @@ variable "parameters" {
 "dev.roboshop.frontend.SHIPPING_ENDPOINT" = { type = "String", value = "https://shipping-dev.sbadiger93.online/"},
 "dev.roboshop.frontend.PAYMENT_ENDPOINT" = { type = "String", value = "https://payment-dev.sbadiger93.online/"},
 
-"newrelic.key" = { type = "String", value = "NRAK-Z25QTKTTIZPRI7T2MDIRQXA6H93"},
+"newrelic.key" = { type = "SecureString", value = "NRAK-Z25QTKTTIZPRI7T2MDIRQXA6H93"},
 
 
 "dev.rds.endpoint" = { name = "dev.rds.endpoint", type = "SecureString", value = "terraform-20240106162607772700000003.cza2eiiicaa6.us-east-1.rds.amazonaws.com" },
