@@ -17,6 +17,13 @@ variable "parameters" {
 "dev.roboshop.docdb.username" = { name = "dev.roboshop.docdb.username", type = "String", value = "admin1"},
 "dev.roboshop.docdb.password" = { name = "dev.roboshop.docdb.password", type = "SecureString", value = "RoboShop12345"},
 
+"dev.roboshop.frontend.CATALOGUE_ENDPOINT" = { type = "String", value = "https://catalogue-dev.sbadiger93.online/"},
+"dev.roboshop.frontend.CART_ENDPOINT" = { type = "String", value = "https://cart-dev.sbadiger93.online/"},
+"dev.roboshop.frontend.USER_ENDPOINT" = { type = "String", value = "https://user-dev.sbadiger93.online/"},
+"dev.roboshop.frontend.SHIPPING_ENDPOINT" = { type = "String", value = "https://shipping-dev.sbadiger93.online/"},
+"dev.roboshop.frontend.PAYMENT_ENDPOINT" = { type = "String", value = "https://payment-dev.sbadiger93.online/"},
+
+"newrelic.key" = { type = "String", value = "NRAK-Z25QTKTTIZPRI7T2MDIRQXA6H93"},
 
 
 "dev.rds.endpoint" = { name = "dev.rds.endpoint", type = "SecureString", value = "terraform-20240106162607772700000003.cza2eiiicaa6.us-east-1.rds.amazonaws.com" },
